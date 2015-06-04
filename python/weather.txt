@@ -1,0 +1,17 @@
+January 1       0.21
+January 2       0.21
+January 3       0.21
+January 4       0.21
+January 5       0.21
+January 6       0.21
+January 7       0.21
+January 8       0.21
+February 1 0.123123
+February 1 0.123123
+February 1 0.123123
+February 1 0.123123
+February 1 0.123123
+February 1 0.123123
+March 31 0.5
+March 2 0.6
+December 1 1.2

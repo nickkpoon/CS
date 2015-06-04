@@ -1,0 +1,49 @@
+
+Week 2 problems: C++
+
+Remember to solve these individually, working with your partner only when
+you get stuck, and seeking help from the TA only when you are both stuck.
+
+This is part of your assignment for the week, not just for the day, so it is 
+expected that you may not finish during this lab time.  
+
+For each problem, make sure you write your answer exactly on the line with 
+the problem number (i.e. 1a) that follows the question.
+
+For example, if the question looks like this:
+0.  What is the last name of the instructor for this class?
+0)
+
+The answer should look like this:
+0.  What is the last name of the instructor for this class?
+0) Franklin
+
+If it is fill in the blank, it would start like this:
+0) The last name of the instructor for this class is ___________.
+
+And the answer would look like this:
+0) The last name of the instructor for this class is Franklin.
+
+Fill in the following sentences with the proper vocabulary word.
+1) In C++, functions that are associated with a class are called instance ____________.
+
+2)  A data type is to a variable as a class is to an __________.
+
+3) Bringing together data and functions into a single unit, as well as restricting access to them, is called ________________.
+
+4) Restricting access to data, code, and implementation details is called __________________.
+
+5) The constructor with no input arguments is called the __________ constructor.
+
+6) If you create an array of objects, as opposed to an array of pointers to objects, you may only use the ____________ constructor.
+
+7) If you have a line of code like this:  Card c = d; the _________ constructor will be called.
+
+Now here are some review questions on the week 0 and 1 material.
+
+8) In c, in order to group variables together in a single unit, you use a __________.
+
+9) When compiling separate files, the first 7 characters of the header file should be _________.
+
+
+

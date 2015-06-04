@@ -1,0 +1,44 @@
+#include <cstdlib>	
+#include <cstdio>
+#include <iostream>
+#include "Deck.h"
+
+/*Deck::Deck(const int n, Card **c)
+{
+	num_cards = n;
+	**cards = **c;
+}
+*/
+Deck::Deck()
+{
+	num_cards = 0;
+	Card **cards = NULL;
+	std::cout << "123";
+}
+
+int Deck::find_index(int suit, int value) const
+{
+	int i;
+	for(i = 0; i < this->get_num_cards(); i++)
+	{
+		if (cards[i]->get_value() == value && cards[i]->get_suit() == suit)
+			return i;
+	}
+		
+	std::cout << "break 1";
+	return -1;
+}
+
+const Card * Deck::get_card(int index) const
+{
+	std::cout << "break 2";	
+	return cards[index];
+}
+
+int Deck::get_num_cards() const
+{
+	std::cout << "break 3";	
+	return num_cards;
+}
+
+

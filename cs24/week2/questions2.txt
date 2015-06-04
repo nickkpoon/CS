@@ -1,0 +1,20 @@
+1) in C++, functions that are associated with a class are called instance methods.
+
+2) A data type is to a variable as a class is to an object.
+
+3) Bringing together data and functions into a single unit, as well as restricting access to them, is called encapsulation.
+
+4) Restricting access to data, code, and implementation details is called abstraction.
+
+5) The constructor with no input arguments is called the default constructor.
+
+6) If you create an array of objects, as opposed to an array of pointers to objects, you may only use the move constructor.
+
+7) If you have a line of code like this:  Card c = d; the copy constructor will be called.
+
+8) In c, in order to group variables together in a single unit, you use a struct.
+
+9) When compiling separate files, the first 7 characters of the header file should be #ifndef.
+
+
+

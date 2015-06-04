@@ -1,0 +1,46 @@
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctype.h>
+
+int main()
+{
+	char question1[1000];
+	char question2[1000];
+
+	char ch, buffer;
+	BinaryNode *node2 = new BinaryNode();
+	BinaryNode *node3 = new BinaryNode();
+     
+	ifstream fp("gameinfo.txt");
+	string currLine, rootquestion, question1, question2, question3;
+	//get root
+	getline(fp, currLine);
+	rootquestion = strtok(currLine, ",");
+	root->question = rootquestion;
+	question2 = strtok(NULL, ","); //strtok uses in stream from what was left after last delimiter
+	BinaryNode *node2 = new BinaryNode(question2);
+	question3 = strtok(NULL, "\n");
+	BinaryNode *node3 = new BinaryNode(question3);node2->question = question2;
+	question3 = strtok(NULL, "\n");
+	node3->question = question3;
+	
+	while(getline(fp, currLine))
+	{
+	  question1 = strtok(currLine, ",");
+       	  question2 = strtok(NULL, ",");
+ 	  question3 = strtok(NULL, "\n");
+	  BinaryNode *node22 = new BinaryNode(question2);
+	  BinaryNode *node23 = new BinaryNode(question3);
+
+	}	
+
+
+
+	fgets(fp, "%s[^,]", question1);
+	for(int i = 0; i<10; i++)
+	{
+		printf("%c", question1[i]);
+	}
+	return 0;
+}

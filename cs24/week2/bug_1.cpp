@@ -1,0 +1,11 @@
+#include "AList.h"
+
+int main() {
+  int initial[] = {1, 2, 3, 5, 7};
+  AList list(initial, sizeof(initial) / sizeof(int));
+
+  list.insert(-1, 999);  // Insert 2048 at position 2
+
+
+  return 0;
+}
